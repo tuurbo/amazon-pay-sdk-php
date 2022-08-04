@@ -86,7 +86,7 @@ class IpnHandler implements IpnHandlerInterface, LoggerAwareInterface
         }
     }
 
-    public function setLogger(LoggerInterface $logger = null) {
+    public function setLogger(LoggerInterface $logger = null): void {
         $this->logger = $logger;
     }
     
